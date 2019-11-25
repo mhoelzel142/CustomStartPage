@@ -17,6 +17,8 @@ namespace CustomStartPage.viewmodels
         public ProjectSection ProjectsLastMonth { get; set; }
         public ProjectSection ProjectsOlder { get; set; }
 
+        // Instantiate the viewmodel with some test data for layout purposes.  
+        // Will build a service to get this from the PrivateRegistry hive at a later date. 
         public MainWindowViewModel()
         {
             Projects = new List<ProjectSection>();
